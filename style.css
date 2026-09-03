@@ -10,14 +10,14 @@
 
 
 :root {
-  --bg: #0b0d10;
-  --surface: #111419;
-  --surface-light: #171b21;
+  --bg: #EDECEC;
+  --surface: #FEFEFE;
+  --surface-light: #E0E7D7;
 
-  --text: #f4f6f8;
-  --muted: #9aa2ad;
+  --text: #3F403B;
+  --muted: #BA9A91;
 
-  --border: #252a32;
+  --border: #CCCCCC;
 
   --max-width: 1120px;
 }
@@ -62,11 +62,11 @@ a {
   align-items: center;
   justify-content: space-between;
 
-  background: rgba(11, 13, 16, 0.86);
+  background: rgba(237, 236, 236, 0.88);
 
   backdrop-filter: blur(16px);
 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(183, 195, 150, 0.45);
 }
 
 
@@ -245,9 +245,9 @@ h1 {
 
 
 .button.primary {
-  background: white;
+  background: #B7C396;
 
-  color: #0b0d10;
+  color: #3F403B;
 }
 
 
@@ -283,13 +283,13 @@ h1 {
   background:
     radial-gradient(
       circle at 50% 30%,
-      #242a32 0 8%,
+      #B7C396 0 8%,
       transparent 9%
     ),
     linear-gradient(
       145deg,
-      #15191f,
-      #0f1115
+      #E0E7D7,
+      #EDECEC
     );
 
   display: flex;
@@ -423,7 +423,7 @@ h1 {
 .empty-projects {
   min-height: 430px;
 
-  border: 1px dashed #303640;
+  border: 1px dashed #B7C396;
 
   border-radius: 22px;
 
@@ -836,7 +836,7 @@ footer p {
 
     gap: 17px;
 
-    background: #0b0d10;
+    background: #EDECEC;
 
     border-bottom: 1px solid var(--border);
   }
@@ -922,7 +922,7 @@ footer p {
 
 .feedback-form input:focus,
 .feedback-form textarea:focus {
-  border-color: #555;
+  border-color: #BA9A91;
 }
 
 .feedback-form button {
