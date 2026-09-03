@@ -928,4 +928,23 @@ footer p {
 .feedback-form button {
   margin-top: 15px;
   align-self: flex-end;
+
+  padding: 13px 20px;
+  border: none;
+  border-radius: 10px;
+
+  background: #B7C396;
+  color: #3F403B;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.feedback-form button:hover {
+  transform: translateY(-2px);
 }
