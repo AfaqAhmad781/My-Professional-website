@@ -433,6 +433,50 @@
 
     </section>
 
+    <!--Feedback mechanism-->
+    <section id="feedback" class="section">
+  <div class="section-heading reveal">
+    <span class="eyebrow">FEEDBACK</span>
+    <h2>What do you think?</h2>
+    <p>Your feedback helps me improve this website.</p>
+  </div>
+
+  <form
+    action="https://formspree.io/f/xljenavq"
+    method="POST"
+    class="feedback-form reveal"
+  >
+    <label for="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Your name"
+    >
+
+    <label for="email">Email <span>(optional)</span></label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="your@email.com"
+    >
+
+    <label for="message">Feedback</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="5"
+      placeholder="Tell me what you think..."
+      required
+    ></textarea>
+
+    <button type="submit" class="btn btn-primary">
+      Send Feedback
+    </button>
+  </form>
+</section>
+
 
     <!-- ================= CONTACT ================= -->
 
