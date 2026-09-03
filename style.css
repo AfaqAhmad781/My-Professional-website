@@ -928,8 +928,4 @@ footer p {
 .feedback-form button {
   margin-top: 15px;
   align-self: flex-end;
-  padding: 14px 28px;
-  font-size: 1rem;
-  font-weight: 600;
-  border-radius: 12px;
 }
